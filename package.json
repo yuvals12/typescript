@@ -1,7 +1,6 @@
 {
   "name": "typescript",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -12,8 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/yuvals12/typescript.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/yuvals12/typescript/issues"
   },
