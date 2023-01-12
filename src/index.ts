@@ -37,26 +37,12 @@ const getAmountOfPositive=((array:number[]) :number =>
 })
 console.log(getAmountOfPositive([-1.5, 6, 1.5]));
 */
-/*
-const sortList1=((array:number[]) :void =>
-{ 
-  let max=0;
-  for (let i = 0; i < array.length-1; i++) {
-  if(array[i]>array[i+1])
-   {
-    max=array[i];
-    array[i]=array[i+1];
-    array[i+1]=max;
 
-   }
-  }
-})
-*/
+
 const sortList2=((array:number[]) :void =>
 { 
     array.sort(function(a,b){return a-b})
-    console.log(array);
 })
-console.log(sortList2([3,2,4]));
+
  
   
